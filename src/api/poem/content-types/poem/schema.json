@@ -75,6 +75,26 @@
       "relation": "manyToOne",
       "target": "api::poet.poet",
       "inversedBy": "poems"
+    },
+    "excerpt": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::excerpt.excerpt",
+      "inversedBy": "poems"
+    },
+    "tags": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::tag.tag",
+      "inversedBy": "poems"
+    },
+    "extra": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "text"
     }
   }
 }

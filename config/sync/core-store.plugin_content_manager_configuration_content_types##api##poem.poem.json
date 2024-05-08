@@ -118,6 +118,50 @@
           "sortable": true
         }
       },
+      "excerpt": {
+        "edit": {
+          "label": "excerpt",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true,
+          "mainField": "content"
+        },
+        "list": {
+          "label": "excerpt",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "tags": {
+        "edit": {
+          "label": "tags",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true,
+          "mainField": "name"
+        },
+        "list": {
+          "label": "tags",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "extra": {
+        "edit": {
+          "label": "extra",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "extra",
+          "searchable": true,
+          "sortable": true
+        }
+      },
       "createdAt": {
         "edit": {
           "label": "createdAt",
@@ -178,12 +222,6 @@
       }
     },
     "layouts": {
-      "list": [
-        "id",
-        "title",
-        "titlePinyin",
-        "content"
-      ],
       "edit": [
         [
           {
@@ -207,8 +245,22 @@
         ],
         [
           {
+            "name": "tags",
+            "size": 4
+          },
+          {
+            "name": "poet",
+            "size": 4
+          },
+          {
+            "name": "excerpt",
+            "size": 4
+          }
+        ],
+        [
+          {
             "name": "translation",
-            "size": 6
+            "size": 12
           }
         ],
         [
@@ -219,10 +271,16 @@
         ],
         [
           {
-            "name": "poet",
-            "size": 6
+            "name": "extra",
+            "size": 12
           }
         ]
+      ],
+      "list": [
+        "id",
+        "title",
+        "titlePinyin",
+        "content"
       ]
     },
     "uid": "api::poem.poem"

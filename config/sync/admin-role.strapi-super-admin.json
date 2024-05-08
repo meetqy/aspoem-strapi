@@ -6,6 +6,81 @@
     {
       "action": "plugin::content-manager.explorer.create",
       "actionParameters": {},
+      "subject": "api::excerpt.excerpt",
+      "properties": {
+        "fields": [
+          "content",
+          "images",
+          "poems"
+        ],
+        "locales": [
+          "zh-Hans",
+          "zh-Hant"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.delete",
+      "actionParameters": {},
+      "subject": "api::excerpt.excerpt",
+      "properties": {
+        "locales": [
+          "zh-Hans",
+          "zh-Hant"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.publish",
+      "actionParameters": {},
+      "subject": "api::excerpt.excerpt",
+      "properties": {
+        "locales": [
+          "zh-Hans",
+          "zh-Hant"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.read",
+      "actionParameters": {},
+      "subject": "api::excerpt.excerpt",
+      "properties": {
+        "fields": [
+          "content",
+          "images",
+          "poems"
+        ],
+        "locales": [
+          "zh-Hans",
+          "zh-Hant"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.update",
+      "actionParameters": {},
+      "subject": "api::excerpt.excerpt",
+      "properties": {
+        "fields": [
+          "content",
+          "images",
+          "poems"
+        ],
+        "locales": [
+          "zh-Hans",
+          "zh-Hant"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.create",
+      "actionParameters": {},
       "subject": "api::poem.poem",
       "properties": {
         "fields": [
@@ -15,7 +90,10 @@
           "contentPinyin",
           "translation",
           "annotation",
-          "poet"
+          "poet",
+          "excerpt",
+          "tags",
+          "extra"
         ],
         "locales": [
           "zh-Hans",
@@ -60,7 +138,10 @@
           "contentPinyin",
           "translation",
           "annotation",
-          "poet"
+          "poet",
+          "excerpt",
+          "tags",
+          "extra"
         ],
         "locales": [
           "zh-Hans",
@@ -81,7 +162,10 @@
           "contentPinyin",
           "translation",
           "annotation",
-          "poet"
+          "poet",
+          "excerpt",
+          "tags",
+          "extra"
         ],
         "locales": [
           "zh-Hans",
@@ -163,6 +247,78 @@
           "dynasty",
           "poems",
           "desc"
+        ],
+        "locales": [
+          "zh-Hans",
+          "zh-Hant"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.create",
+      "actionParameters": {},
+      "subject": "api::tag.tag",
+      "properties": {
+        "fields": [
+          "name",
+          "poems"
+        ],
+        "locales": [
+          "zh-Hans",
+          "zh-Hant"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.delete",
+      "actionParameters": {},
+      "subject": "api::tag.tag",
+      "properties": {
+        "locales": [
+          "zh-Hans",
+          "zh-Hant"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.publish",
+      "actionParameters": {},
+      "subject": "api::tag.tag",
+      "properties": {
+        "locales": [
+          "zh-Hans",
+          "zh-Hant"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.read",
+      "actionParameters": {},
+      "subject": "api::tag.tag",
+      "properties": {
+        "fields": [
+          "name",
+          "poems"
+        ],
+        "locales": [
+          "zh-Hans",
+          "zh-Hant"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.update",
+      "actionParameters": {},
+      "subject": "api::tag.tag",
+      "properties": {
+        "fields": [
+          "name",
+          "poems"
         ],
         "locales": [
           "zh-Hans",
