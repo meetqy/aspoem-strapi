@@ -11,6 +11,7 @@
     "build": "strapi build",
     "cs": "config-sync",
     "develop": "strapi develop",
+    "pm2": "NODE_ENV=production pm2 start server.js --name api",
     "start": "strapi start",
     "strapi": "strapi"
   },
