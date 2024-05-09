@@ -7,12 +7,6 @@
       "action": "plugin::users-permissions.auth.changePassword"
     },
     {
-      "action": "plugin::users-permissions.auth.changePassword"
-    },
-    {
-      "action": "plugin::users-permissions.user.me"
-    },
-    {
       "action": "plugin::users-permissions.user.me"
     }
   ]

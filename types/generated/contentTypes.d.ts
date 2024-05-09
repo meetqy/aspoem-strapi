@@ -439,17 +439,14 @@ export interface ApiPoemPoem extends Schema.CollectionType {
     };
   };
   attributes: {
-    title: Attribute.String &
+    title: Attribute.Text &
       Attribute.Required &
       Attribute.SetPluginOptions<{
         i18n: {
           localized: true;
         };
-      }> &
-      Attribute.SetMinMaxLength<{
-        maxLength: 30;
       }>;
-    titlePinyin: Attribute.String &
+    titlePinyin: Attribute.Text &
       Attribute.Required &
       Attribute.SetPluginOptions<{
         i18n: {
