@@ -5,14 +5,13 @@ export default [
   "strapi::cors",
   "strapi::poweredBy",
   "strapi::query",
-  "strapi::body",
-  "strapi::session",
-  "strapi::favicon",
-  "strapi::public",
   {
     name: "strapi::body",
     config: {
       jsonLimit: "10mb",
     },
   },
+  "strapi::session",
+  "strapi::favicon",
+  "strapi::public",
 ];
