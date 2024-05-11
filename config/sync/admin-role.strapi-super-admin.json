@@ -14,8 +14,8 @@
           "poems"
         ],
         "locales": [
-          "zh-Hant",
-          "zh-Hans"
+          "zh-Hans",
+          "zh-Hant"
         ]
       },
       "conditions": []
@@ -26,8 +26,8 @@
       "subject": "api::excerpt.excerpt",
       "properties": {
         "locales": [
-          "zh-Hant",
-          "zh-Hans"
+          "zh-Hans",
+          "zh-Hant"
         ]
       },
       "conditions": []
@@ -38,8 +38,8 @@
       "subject": "api::excerpt.excerpt",
       "properties": {
         "locales": [
-          "zh-Hant",
-          "zh-Hans"
+          "zh-Hans",
+          "zh-Hant"
         ]
       },
       "conditions": []
@@ -55,8 +55,8 @@
           "poems"
         ],
         "locales": [
-          "zh-Hant",
-          "zh-Hans"
+          "zh-Hans",
+          "zh-Hant"
         ]
       },
       "conditions": []
@@ -72,8 +72,8 @@
           "poems"
         ],
         "locales": [
-          "zh-Hant",
-          "zh-Hans"
+          "zh-Hans",
+          "zh-Hant"
         ]
       },
       "conditions": []
@@ -96,8 +96,8 @@
           "extra"
         ],
         "locales": [
-          "zh-Hant",
-          "zh-Hans"
+          "zh-Hans",
+          "zh-Hant"
         ]
       },
       "conditions": []
@@ -108,8 +108,8 @@
       "subject": "api::poem.poem",
       "properties": {
         "locales": [
-          "zh-Hant",
-          "zh-Hans"
+          "zh-Hans",
+          "zh-Hant"
         ]
       },
       "conditions": []
@@ -120,8 +120,8 @@
       "subject": "api::poem.poem",
       "properties": {
         "locales": [
-          "zh-Hant",
-          "zh-Hans"
+          "zh-Hans",
+          "zh-Hant"
         ]
       },
       "conditions": []
@@ -144,8 +144,8 @@
           "extra"
         ],
         "locales": [
-          "zh-Hant",
-          "zh-Hans"
+          "zh-Hans",
+          "zh-Hant"
         ]
       },
       "conditions": []
@@ -168,8 +168,8 @@
           "extra"
         ],
         "locales": [
-          "zh-Hant",
-          "zh-Hans"
+          "zh-Hans",
+          "zh-Hant"
         ]
       },
       "conditions": []
@@ -187,8 +187,8 @@
           "desc"
         ],
         "locales": [
-          "zh-Hant",
-          "zh-Hans"
+          "zh-Hans",
+          "zh-Hant"
         ]
       },
       "conditions": []
@@ -199,8 +199,8 @@
       "subject": "api::poet.poet",
       "properties": {
         "locales": [
-          "zh-Hant",
-          "zh-Hans"
+          "zh-Hans",
+          "zh-Hant"
         ]
       },
       "conditions": []
@@ -211,8 +211,8 @@
       "subject": "api::poet.poet",
       "properties": {
         "locales": [
-          "zh-Hant",
-          "zh-Hans"
+          "zh-Hans",
+          "zh-Hant"
         ]
       },
       "conditions": []
@@ -230,8 +230,8 @@
           "desc"
         ],
         "locales": [
-          "zh-Hant",
-          "zh-Hans"
+          "zh-Hans",
+          "zh-Hant"
         ]
       },
       "conditions": []
@@ -249,8 +249,8 @@
           "desc"
         ],
         "locales": [
-          "zh-Hant",
-          "zh-Hans"
+          "zh-Hans",
+          "zh-Hant"
         ]
       },
       "conditions": []
@@ -265,8 +265,8 @@
           "poems"
         ],
         "locales": [
-          "zh-Hant",
-          "zh-Hans"
+          "zh-Hans",
+          "zh-Hant"
         ]
       },
       "conditions": []
@@ -277,8 +277,8 @@
       "subject": "api::tag.tag",
       "properties": {
         "locales": [
-          "zh-Hant",
-          "zh-Hans"
+          "zh-Hans",
+          "zh-Hant"
         ]
       },
       "conditions": []
@@ -289,8 +289,8 @@
       "subject": "api::tag.tag",
       "properties": {
         "locales": [
-          "zh-Hant",
-          "zh-Hans"
+          "zh-Hans",
+          "zh-Hant"
         ]
       },
       "conditions": []
@@ -305,8 +305,8 @@
           "poems"
         ],
         "locales": [
-          "zh-Hant",
-          "zh-Hans"
+          "zh-Hans",
+          "zh-Hant"
         ]
       },
       "conditions": []
@@ -321,8 +321,8 @@
           "poems"
         ],
         "locales": [
-          "zh-Hant",
-          "zh-Hans"
+          "zh-Hans",
+          "zh-Hant"
         ]
       },
       "conditions": []

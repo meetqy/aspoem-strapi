@@ -571,7 +571,6 @@ export interface ApiPoetPoet extends Schema.CollectionType {
       }>;
     poems: Attribute.Relation<'api::poet.poet', 'oneToMany', 'api::poem.poem'>;
     desc: Attribute.Text &
-      Attribute.Unique &
       Attribute.SetPluginOptions<{
         i18n: {
           localized: true;
